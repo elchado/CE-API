@@ -1,0 +1,31 @@
+{
+  "name": "ce-api",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "^4.15.4",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "node": "^8.3.0",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elchado/CE-API.git"
+  },
+  "author": "Kevin Charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elchado/CE-API/issues"
+  },
+  "homepage": "https://github.com/elchado/CE-API#readme"
+}

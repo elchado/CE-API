@@ -1,0 +1,21 @@
+var n = 8;
+var k = 4;
+var params = [1,8,8,4,2,9,8,11];
+
+function getMaxMin(params, n, k) { 
+  var sums = [];
+  
+  for (var i = 0; i <= n/2; i++) {
+    var sub = params.slice(i, k++)
+    
+    var max = Math.max.apply(null, sub);
+    var min = Math.min.apply(null, sub);
+    var sum = min + max;
+    
+    sums.push(sum);
+  }
+  
+  console.log(sums.join(","))
+}
+
+getMaxMin(params, n, k);
